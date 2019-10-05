@@ -1,0 +1,33 @@
+
+What is HTML? 
+HTML stands for: Hyper Text Markup Language  used to describe the structure and content of web pages 
+What is an elements in html ? 
+Each part of a web page, such as a paragraph, an image, a link or anything else you can interact with, is an elemen
+What is a tags in html ?
+They are keywords surrounded by angled brackets, each of which describes an HTML element
+What are attributes and how do you use them in html ?
+specified directly after the name of the tag and change the way the tag behaves or is displayed
+What is block-level element in html  ?
+Elements drawn as a block that stretches to fill the full width available to it (the width of its container) and will always start on a new line.
+What is an inline element in html ?
+elements are drawn where they are defined and only take up space that is absolutely needed
+how to create a paragrapgh in html ?
+Paragraph block. Has margin above and below by default.
+what is span in html ? 
+Its is Inline text, no distinguishing styling by default. Generally used to style parts of a block of text differently (e.g. underlined, different background or font)
+how to create links in html?
+Anchor or link. The href attribute defines where it takes you upon clicking it. This can be a reference point on the same page or a different page.
+how to create a buttons in html ? 	
+A clickable element styled differently depending on the browser and operating system (e.g. Windows, Mac, Linux) used, though these can be overridden. What happens upon click is up to you to decide!
+How to Create bold lettters in html?
+Renders a piece of text bold.
+how to  create italics in html? 
+Renders a piece of text italic.
+How to create a header in html?
+There are headings of different levels . For example, you would generally have a single h1 tag, which can have multiple h2 tags inside of it. Each of those in turn can have multiple h3 tags inside them, and so on.
+How to create breaks in html ?
+Denotes a line break. HTML ignores white space in your code when it becomes more than a single space. Therefore, to break text onto a different line, you can use this tag. Alternatively, you could put the different pieces of text in two separate block-level elements.
+How do you apply CSS styles to a web page?
+There are three styling Inline styles :You can add a style attribute to almost any tag. Inside this attribute you can write your CSS rules  ,A style block :You are able to define one or more style blocks inside the head section of your HTML document and Linking to a CSS file: By to linking to a external CSS file 
+How do you apply JavaScript to a web page?
+There are three methods ; Inline : Certain HTML elements allow you to execute a piece of JavaScript when a certain event occurs , A script block:You can define a script block anywhere on the page and finally Link to a JavaScript file: You can link the page to an external javascript file

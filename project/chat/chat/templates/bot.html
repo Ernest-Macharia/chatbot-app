@@ -1,0 +1,93 @@
+{% load static %}
+  <html>                                                                                                                                                        <html>
+    <head>
+            <link rel='stylesheet' href = '{% static 'css/bootstrap.min.css' %}'>
+    </head>
+    <style>
+    body {
+        background-color: blue;
+        background-image: url('{%static '/images/app.jpg' %}');
+        background-position: auto;
+        
+    }
+    .navbar{
+        opacity: 0.9;
+        position:;
+        background-color: black;
+        top: 80px;
+
+    }
+
+    .container{
+        float:center;
+        opacity: 0.8;
+        position: fixed;
+        top: 130px;
+        margin-left: 90px;
+        padding-bottom: 0px;
+        padding: 100px;
+        background-color:white;
+        background-image: url('{%static '/images/bot.jpg' %}');
+        background-position: right;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     
+     
+     h4{
+      font-size: 20px;
+      
+        
+
+    }
+    .logo{
+        position: fixed;
+        top:0px ;
+        width: 350px;
+        height: 80px;
+        background-color: chocolate;
+        opacity: 0.9
+
+            }
+    .footer{
+        position:fixed;
+        bottom: 0px;
+        text-align: center;
+        color: aliceblue;
+        width:100%;
+        background-color: black;
+        opacity: 0.8;
+        padding-bottom: 0px;
+
+
+    }
+    .btn btn-primary btn btn-lg{
+        height: 100px;
+        width: 200px;
+    }
+    </style>
+<body>
+    <div class="header">
+            <img src='{%static '/images/logo.png' %}' class="logo" alt="">
+        <nav class="navbar navbar-default">
+            <ul class="nav nav-tabs pull-right">
+                <li class="active"><a href="{% url ''">HOME</a></li>
+                <li><a href="{% url 'login' %}">LOG-IN</a></li>
+                <li><a href="abouts">ABOUT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container well well-lg ">
+        <div class="col-md-6">
+</div>
+    <div class="col-md-6">
+            <h1><b>Virtual Coding Assistant System</b></h1>
+            <p><b>Designed to ensure you work with the right tools and frameworks</b></p>
+            <a class="btn btn-primary btn btn-lg" href="{% url 'register' %}">Get Started</a>
+    
+    </div>
+    </div>
+    <div class ="footer">
+        <h3>copyright @2019</h3>
+    
+</body>
+</html>
